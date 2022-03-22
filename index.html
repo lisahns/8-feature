@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href="./style.css">
+    <title>Image Carousel</title>
+</head>
+<body>
+    <div class="carousel">
+        <div class="carousel__track_container">
+        <ul class="carousel__track">
+        <li class="carousel__slide current-slide">
+            <img class="carousel__image" src="./images/1 Tribute Page.jpg" alt="Tribute Page">
+        </li>
+        <li class="carousel__slide">
+            <img class="carousel__image" src="./images/2 Functions.jpg" alt="Functions">
+        </li>
+        <li class="carousel__slide">
+            <img class="carousel__image" src="./images/3 DOM.jpg" alt="DOM">
+        </li>
+        <li class="carousel__slide">
+            <img class="carousel__image" src="./images/4 Array Methods.jpg" alt="Array Methods">
+        </li>
+        <li class="carousel__slide">
+            <img class="carousel__image" src="./images/5 Flexbox.jpg" alt="Flexbox">
+        </li>
+        <li class="carousel__slide">
+            <img class="carousel__image" src="./images/6 Objects.jpg" alt="Objects">
+        </li>
+    </ul>
+    </div>
+
+    <button class="carousel__button carousel__button--left">
+        <img class=".carousel__button-img" src="./images/chevron-large-left(32x32)@1x.png" alt="Button Left">
+    </button>
+        <button class="carousel__button carousel__button--right">
+            <img class=".carousel__button-img" src="./images/chevron-large-right(32x32)@1x.png" alt="Button Left">
+        </button>
+
+        <div class="carousel__nav">
+        <button class="carousel__indicator current-slide"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+    </div>
+</div>
+<script src="./apps.js"></script>
+</body>
+</html>
