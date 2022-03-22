@@ -42,6 +42,7 @@ transition: transform 250ms ease-in;
     height: 20px;
     background: transparent;
     border: 0;
+    cursor: pointer;
 }
 
 .carousel__button-img {
@@ -69,6 +70,7 @@ transition: transform 250ms ease-in;
     height: 10px;
     background:#e0e0e0;
     margin: 0 5px;
+    cursor: pointer;
 }
 
 .carousel__indicator.current-slide {
