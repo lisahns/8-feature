@@ -76,3 +76,7 @@ transition: transform 250ms ease-in;
 .carousel__indicator.current-slide {
     background:#357418;
 }
+
+.is-hidden{
+    display: none;
+}
